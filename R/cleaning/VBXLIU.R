@@ -239,5 +239,5 @@ VBXLIU <- DM_CLEAN    %>%
   full_join(OUT %>% select(USUBJID, starts_with("OUT_")))
 
 saveRDS(VBXLIU, "data/cleaned_rds/VBXLIU.rds")
-VBXLIU #%>% View()
+VBXLIU %>% View()
 OUT %>% names()
