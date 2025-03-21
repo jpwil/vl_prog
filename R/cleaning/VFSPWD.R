@@ -14,9 +14,6 @@ DM %>% count()
 DM %>% names()
 DM %>% count(AGE)
 
-#DM$AGE %>% hist()
-
-
 DM_CLEAN <- DM %>% 
   mutate(
     DM_SEX = SEX,
@@ -169,5 +166,4 @@ VFSPWD <- DM_CLEAN %>%
   full_join(SA_CLEAN)
 
 #VFSPWD %>% View()
-
 saveRDS(VFSPWD, "data/cleaned_rds/VFSPWD.rds")
