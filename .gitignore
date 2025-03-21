@@ -1,0 +1,24 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# VSCode files
+.vscode/
+.lintr
+vl_relapse_model.code-workspace
+
+# data files 
+/data
+
+# results files
+/results
+
+# docs
+/docs
+
+# other
+.DS_Store
